@@ -9,6 +9,8 @@
         body {
             background-color: #f9f9f9;
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
         .container {
             max-width: 1200px;
@@ -23,6 +25,15 @@
         }
         header h1 {
             font-size: 36px;
+            color: #333;
+            margin: 0;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
             color: #333;
         }
         /* Product section styles */
@@ -79,11 +90,11 @@
             </nav>
         </header>
         <section class="product">
-            <img src="https://media.istockphoto.com/id/1322274556/photo/collection-of-different-toys-on-wooden-table.jpg?s=612x612&w=0&k=20&c=DrcAYB7zglqgD3GuICJFLuxE9cBOvSJIlFAdOwrYZEE=" alt="Toy 1">
+            <img src="C:\Users\varun\Desktop\toy11.jpg" alt="Toy 1">
             <p>Explore our amazing collection of toys for all ages. From educational toys to fun playsets, we have it all!</p>
         </section>
         <section class="product">
-            <img src="https://media.istockphoto.com/id/79120580/photo/toys-in-a-dresser.webp?s=1024x1024&w=is&k=20&c=UO_PHMT_XcLXSUDf7ngalfu7IfRC-oX4AUAYHpO9mY0=" alt="Toy 2">
+            <img src="C:\Users\varun\Desktop\toy22.jpg" alt="Toy 2">
             <p>Check out our latest toy arrivals. Perfect for birthdays, holidays, or just because!</p>
         </section>
         <div class="search-bar">
